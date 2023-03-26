@@ -17,13 +17,7 @@
   alias for:
 
   ```sh
-  npx @11ty/eleventy --serve
-  ```
-
-  You can change default port (`8080`) using the `port` flag:
-
-  ```sh
-  npx @11ty/eleventy --serve --port=8081
+  npx @11ty/eleventy --serve --port=8891
   ```
 
 - Build your production-ready application::
@@ -47,3 +41,14 @@
   ```
 
   To exclude files from formatting, please refer to `.prettierignore` (should correspond to `.gitignore`).
+
+- Run e2e tests:
+
+  ```sh
+  npm run cy:test
+  ```
+
+- Start Cypress testing framework in GUI mode:
+  ```sh
+  npm run cy:open
+  ```
