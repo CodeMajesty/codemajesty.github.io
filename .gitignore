@@ -1,3 +1,7 @@
 /.github/
-/node_modules/
+**/node_modules/**
 /_site/
+
+# Cypress
+/cypress/screenshots/
+/cypress/videos/

@@ -1,3 +1,28 @@
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  text-align: center;
+}
+
+main > img {
+  width: 80%;
+  height: auto;
+}
+
 footer {
+  font-size: 1rem;
+  padding: 1rem 0;
   color: #8d8d8d;
+  font-family: system-ui;
 }
