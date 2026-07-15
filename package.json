@@ -1,14 +1,12 @@
 {
   "name": "codemajesty.github.io",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CodeMajesty Website",
   "main": "index.js",
   "scripts": {
     "dev": "npx @11ty/eleventy --serve --port=8891",
     "pretty": "npx prettier --write .",
-    "build": "npx @11ty/eleventy",
-    "cy:open": "npx cypress open",
-    "cy:test": "npx cypress run"
+    "build": "npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
@@ -21,8 +19,7 @@
   },
   "homepage": "https://github.com/CodeMajesty/codemajesty.github.io#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0",
-    "cypress": "^12.8.1",
-    "prettier": "^2.8.6"
+    "@11ty/eleventy": "^3.1.6",
+    "prettier": "^3.9.5"
   }
 }

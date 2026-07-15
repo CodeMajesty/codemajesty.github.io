@@ -41,14 +41,3 @@
   ```
 
   To exclude files from formatting, please refer to `.prettierignore` (should correspond to `.gitignore`).
-
-- Run e2e tests:
-
-  ```sh
-  npm run cy:test
-  ```
-
-- Start Cypress testing framework in GUI mode:
-  ```sh
-  npm run cy:open
-  ```
