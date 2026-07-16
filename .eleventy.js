@@ -6,8 +6,6 @@ module.exports = function (eleventyConfig) {
   // trigger a build after change
   eleventyConfig.addWatchTarget('./src/assets/');
 
-  eleventyConfig.addShortcode('getCurrentYear', () => new Date().getFullYear());
-
   return {
     dir: {
       input: 'src',
