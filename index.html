@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -14,7 +14,20 @@
       <img src="/assets/img/cm-full-logo.png" alt="CodeMajesty logo" />
     </main>
 
-    <footer>&copy; 2023 CodeMajesty</footer>
+    <footer>
+  <div class="footer-content">
+    CodeMajesty &copy; <span id="current-year"></span>
+  </div>
+</footer>
 
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const yearEl = document.getElementById('current-year');
+        if (yearEl) {
+          yearEl.textContent = new Date().getFullYear();
+        }
+      });
+    </script>
   </body>
 </html>
